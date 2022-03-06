@@ -7,8 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="MVVM\Model\" />
     <Folder Include="MVVM\ViewModel\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TemplateEngine.Docx" Version="1.1.5" />
   </ItemGroup>
 
 </Project>

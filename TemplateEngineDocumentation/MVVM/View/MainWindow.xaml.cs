@@ -37,6 +37,7 @@ namespace TemplateEngineDocumentation
 		{
 			try
 			{
+				
 				Templater templater = new(DataContext as MainViewModel);
 				SaveFileDialog saveFileDialog = new()
 				{

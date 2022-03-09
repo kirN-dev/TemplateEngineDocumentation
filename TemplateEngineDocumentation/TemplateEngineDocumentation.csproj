@@ -4,11 +4,8 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>noted_note_pen_notebook_write_icon_193919.ico</ApplicationIcon>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="MVVM\ViewModel\" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="TemplateEngine.Docx" Version="1.1.5" />
